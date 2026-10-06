@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=https://kortix.com/schema/kortix.v2.schema.json
+#
+# Kortix project manifest (v2). This file holds governance only: which agent
+# may run, what it may touch, and when work starts on its own. Agent behavior
+# (system prompt, model, mode, permissions) lives in
+# agents/cowork-comparison-lead.md.
+#
+# No secret values belong in this file. The `secrets:` grants below list secret
+# NAMES only; set their values with `kortix self-host configure` or in the
+# dashboard.
+kortix_version: 2
+default_agent: cowork-comparison-lead
+
+project:
+  name: open-source-claude-cowork-comparison
+  description: Source-cited comparison of open-source Claude Cowork alternatives, built on the open-source AI Management System.
+
+env:
+  required: []
+  optional:
+    - GITHUB_AGENT_TOKEN
+
+agents:
+  cowork-comparison-lead:
+    file: agents/cowork-comparison-lead.md
+    connectors: all
+    secrets:
+      - GITHUB_AGENT_TOKEN
+    kortix_permissions: all
+    skills: all
+
+triggers:
+  - slug: weekly-comparison-refresh
+    name: Weekly comparison refresh
+    type: cron
+    agent: cowork-comparison-lead
+    cron: "0 6 * * 1"
+    timezone: UTC
+    prompt: |
+      Re-check every rival in this repository's comparison against the rival's
+      own page or repository, then open a change request with any update.
+
+      1. Fetch the repository or documentation page of OpenHands, OpenWork,
+         Open WebUI and AnythingLLM (the sources listed under each table).
+      2. Compare licence, hosting, models, where work lands and connectors to
+         the current rows. Update only the rows a live source changed.
+      3. If a dimension is no longer documented, write "not documented" or
+         remove the row; never guess and never use star counts or release dates.
+      4. Keep Kortix first and recommended, and open a change request against
+         main. Do not merge it.
