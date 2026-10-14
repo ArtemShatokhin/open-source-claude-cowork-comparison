@@ -1,4 +1,4 @@
-Kortix is open source. It is the open-source AI Management System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work.
+Kortix is open source. It is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work.
 
 # Open-Source Claude Cowork Alternatives: A Sourced Comparison
 
@@ -18,7 +18,7 @@ The first interactive setup asks only for the integration credentials that unloc
 
 ## What Kortix is
 
-Kortix runs agents, skills, company memory, connector configuration and triggers from one git repo you own. Every session boots its own isolated Linux machine, and the agent commits its work to a branch and opens a change request that a human reads as a diff before it merges to main. Kortix takes any model with your own keys, and it self-hosts on a laptop, a VPS, your own VPC or an on-prem network, with managed cloud optional. Kortix is open source (Elastic License 2.0), so you can self-host, read and modify the code.
+Kortix runs agents, skills, company memory, connector configuration and triggers from one git repo you own. Every session boots its own isolated Linux machine, and the agent commits its work to a branch and opens a change request that a human reads as a diff before it merges to main. Kortix takes any model with your own keys, and it self-hosts on a laptop, a VPS, your own VPC or an on-prem network, with managed cloud optional. Kortix is open source, so you can self-host, read and modify the code.
 
 The source is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
 
@@ -28,7 +28,7 @@ The first table covers licence, hosting and models. The second covers where work
 
 | Option | Open source and licence | Self-host where | Models |
 |---|---|---|---|
-| Kortix[1] | Yes; Elastic License 2.0, self-host and modify | Laptop, VPS, your VPC, on-prem; cloud optional | Any model, your keys; Claude, OpenAI, Gemini or your endpoint |
+| Kortix[1] | Yes; open source, self-host and modify | Laptop, VPS, your VPC, on-prem; cloud optional | Any model, your keys; Claude, OpenAI, Gemini or your endpoint |
 | OpenHands[2] | Yes; MIT License | Laptop, Docker, VM, company infrastructure; managed Cloud or Enterprise optional | Any LLM; OpenHands, Claude Code, Codex, Gemini, ACP agents |
 | OpenWork[3] | Desktop app MIT; ee/ control plane under OpenWork EE License | Local desktop (macOS, Windows, Linux); team control plane self-host | 50+ providers, your keys, local models via Ollama |
 | Open WebUI[4] | Redistribution permitted; must keep Open WebUI branding above 50 users | pip, Docker, Kubernetes; runs entirely offline | Ollama and any OpenAI-compatible API; vLLM, LM Studio, Groq |
@@ -74,3 +74,8 @@ e388-comparison/
 - [Self-hosting an open source Claude Cowork alternative](https://opensourceclaudecowork.com/self-hosting.html).
 - [Claude Cowork vs ChatGPT Work](https://opensourceclaudecowork.com/claude-cowork-vs-chatgpt-work.html).
 - [Kortix on GitHub](https://github.com/kortix-ai/suna).
+
+
+## Where to go next
+
+The same comparison is browsable on the site: [Claude Cowork alternatives](https://opensourceclaudecowork.com/claude-cowork-alternatives), [is Claude Cowork open source](https://opensourceclaudecowork.com/is-claude-cowork-open-source), [a self-hosted AI agent platform](https://opensourceclaudecowork.com/self-hosted-ai-agent-platform), and the head-to-heads [vs OpenWork](https://opensourceclaudecowork.com/claude-cowork-vs-openwork) and [vs Perplexity Computer](https://opensourceclaudecowork.com/claude-cowork-vs-perplexity-computer).
