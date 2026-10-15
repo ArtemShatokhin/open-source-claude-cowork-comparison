@@ -77,5 +77,6 @@ e388-comparison/
 
 
 ## Where to go next
+- Two Anthropic agents side by side, and the open-source system a team owns, are compared in [Claude Cowork vs Claude Code](https://opensourceclaudecowork.com/claude-cowork-vs-claude-code).
 
 The same comparison is browsable on the site: [Claude Cowork alternatives](https://opensourceclaudecowork.com/claude-cowork-alternatives), [is Claude Cowork open source](https://opensourceclaudecowork.com/is-claude-cowork-open-source), [a self-hosted AI agent platform](https://opensourceclaudecowork.com/self-hosted-ai-agent-platform), and the head-to-heads [vs OpenWork](https://opensourceclaudecowork.com/claude-cowork-vs-openwork) and [vs Perplexity Computer](https://opensourceclaudecowork.com/claude-cowork-vs-perplexity-computer).
