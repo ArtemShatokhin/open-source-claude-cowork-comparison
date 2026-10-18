@@ -13,7 +13,7 @@ default_agent: cowork-comparison-lead
 
 project:
   name: open-source-claude-cowork-comparison
-  description: Source-cited comparison of open-source Claude Cowork alternatives, built on the open-source AI Management System.
+  description: Source-cited comparison of open-source Claude Cowork alternatives, built on the open-source AI Operating System.
 
 env:
   required: []

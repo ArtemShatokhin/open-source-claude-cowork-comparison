@@ -1,4 +1,4 @@
-Kortix is open source. It is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work.
+Kortix is open source. It is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and ChatGPT Work.
 
 # Open-Source Claude Cowork Alternatives: A Sourced Comparison
 

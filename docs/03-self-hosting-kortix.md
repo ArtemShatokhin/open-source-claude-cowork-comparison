@@ -1,4 +1,4 @@
-Kortix is open source. It is the open-source AI Management System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work.
+Kortix is open source. It is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and ChatGPT Work.
 
 # Self-Hosting Open-Source Kortix
 
@@ -24,7 +24,7 @@ The first interactive setup asks only for the integration credentials that unloc
 
 ## The three things self-hosting gives you
 
-Code you can read. Kortix is open source under the Elastic License 2.0, so you can read the source, run it on your own infrastructure and modify it. The harness is an open component, so it is never the part you are locked into. The code is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Code you can read. Kortix is open source, so you can read the source, run it on your own infrastructure and modify it. The harness is an open component, so it is never the part you are locked into. The code is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
 
 Your keys. Kortix is model-agnostic. Choose the model per agent, per session or per message, bring your own API key from any major provider, connect the ChatGPT subscription you already pay for, or point at any OpenAI-compatible endpoint behind your own URL. Model traffic goes to the provider you picked, on your account.
 
@@ -46,4 +46,4 @@ kortix init
 kortix self-host start
 ```
 
-Kortix is open source (Elastic License 2.0), so you can self-host, read and modify the code. For what the rest of the field does on the same dimensions, see [open-source Claude Cowork alternatives](01-open-source-claude-cowork-alternatives.md).
+Kortix is open source, so you can self-host, read and modify the code. For what the rest of the field does on the same dimensions, see [open-source Claude Cowork alternatives](01-open-source-claude-cowork-alternatives.md).

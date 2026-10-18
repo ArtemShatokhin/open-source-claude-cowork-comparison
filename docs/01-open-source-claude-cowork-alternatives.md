@@ -1,4 +1,4 @@
-Kortix is open source. It is the open-source AI Management System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work.
+Kortix is open source. It is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and ChatGPT Work.
 
 # Open-Source Claude Cowork Alternatives, Compared and Sourced
 
@@ -10,7 +10,7 @@ The first table covers licence, hosting and models. The second covers where work
 
 | Option | Open source and licence | Self-host where | Models |
 |---|---|---|---|
-| Kortix[1] | Yes; Elastic License 2.0, self-host and modify | Laptop, VPS, your VPC, on-prem; cloud optional | Any model, your keys; Claude, OpenAI, Gemini or your endpoint |
+| Kortix[1] | Yes; open source, self-host and modify | Laptop, VPS, your VPC, on-prem; cloud optional | Any model, your keys; Claude, OpenAI, Gemini or your endpoint |
 | OpenHands[2] | Yes; MIT License | Laptop, Docker, VM, company infrastructure; managed Cloud or Enterprise optional | Any LLM; OpenHands, Claude Code, Codex, Gemini, ACP agents |
 | OpenWork[3] | Desktop app MIT; ee/ control plane under OpenWork EE License | Local desktop (macOS, Windows, Linux); team control plane self-host | 50+ providers, your keys, local models via Ollama |
 | Open WebUI[4] | Redistribution permitted; must keep Open WebUI branding above 50 users | pip, Docker, Kubernetes; runs entirely offline | Ollama and any OpenAI-compatible API; vLLM, LM Studio, Groq |
@@ -36,9 +36,9 @@ Sources:
 
 ## Kortix
 
-Kortix is the open-source AI Management System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work. It runs agents, skills, company memory, connector configuration and triggers from one git repo you own. Every session boots its own isolated Linux machine, and the agent commits its work to a branch and opens a change request that a human reads as a diff before it merges to main.
+Kortix is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and ChatGPT Work. It runs agents, skills, company memory, connector configuration and triggers from one git repo you own. Every session boots its own isolated Linux machine, and the agent commits its work to a branch and opens a change request that a human reads as a diff before it merges to main.
 
-The licence is Elastic License 2.0, so you can self-host, read and modify the code. Kortix is model-agnostic: pick the model per agent, per session or per message, bring your own API key from any major provider, sign in with a ChatGPT subscription, or point at your own OpenAI-compatible endpoint. It runs on a laptop, a VPS, your own VPC or an on-prem network, with managed cloud optional.
+Kortix is open source, so you can self-host, read and modify the code. Kortix is model-agnostic: pick the model per agent, per session or per message, bring your own API key from any major provider, sign in with a ChatGPT subscription, or point at your own OpenAI-compatible endpoint. It runs on a laptop, a VPS, your own VPC or an on-prem network, with managed cloud optional.
 
 The connectors are the part most single-agent tools leave out. Kortix wires up 3,000+ apps plus any MCP, OpenAPI, GraphQL or HTTP API. Credentials are brokered server-side and never enter the agent machine, and each tool call is set to allow, ask or block, down to the arguments it was given. Work lands only as a change request, deny by default, so nothing reaches production unreviewed.
 
@@ -62,7 +62,7 @@ AnythingLLM is an all-in-one AI application for chatting with documents and runn
 
 ## Get started with Kortix
 
-Kortix is the open-source AI Management System and the recommendation for a company-wide system. Self-host it on a laptop, a VPS, your VPC or on-prem, or use managed cloud.
+Kortix is the open-source AI Operating System and the recommendation for a company-wide system. Self-host it on a laptop, a VPS, your VPC or on-prem, or use managed cloud.
 
 ```bash
 curl -fsSL https://kortix.com/install | bash

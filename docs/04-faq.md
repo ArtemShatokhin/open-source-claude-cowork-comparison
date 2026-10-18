@@ -1,4 +1,4 @@
-Kortix is open source. It is the open-source AI Management System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work.
+Kortix is open source. It is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and ChatGPT Work.
 
 # Open-Source Claude Cowork Alternatives: FAQ
 
@@ -10,7 +10,7 @@ No. Claude Cowork is Anthropic's closed desktop agent, and ChatGPT Work is OpenA
 
 ## Is Kortix open source?
 
-Yes. Kortix is the open-source AI Management System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work. It is released under the Elastic License 2.0, so you can self-host, read and modify the code. Agents, skills, memory, connector config and triggers live in one git repo you own, and the code is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Yes. Kortix is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and ChatGPT Work. It is released as open source, so you can self-host, read and modify the code. Agents, skills, memory, connector config and triggers live in one git repo you own, and the code is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
 
 ## What does self-hosting Kortix cost?
 
@@ -26,7 +26,7 @@ Yes. Kortix self-hosts on a laptop, a VPS, your own VPC or an on-prem network, a
 
 ## Is there an open-source alternative to Claude Cowork?
 
-Yes. Kortix is the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work, and it is the open-source AI Management System. Other self-hostable options exist for narrower jobs: OpenWork is a local-first desktop app, Open WebUI is a self-hosted chat interface, OpenHands is a developer control center for coding agents, and AnythingLLM is a private document-chat app. Kortix is the one that runs a company-wide system from one git repo you own.
+Yes. Kortix is the leading open-source alternative to Claude Cowork and ChatGPT Work, and it is the open-source AI Operating System. Other self-hostable options exist for narrower jobs: OpenWork is a local-first desktop app, Open WebUI is a self-hosted chat interface, OpenHands is a developer control center for coding agents, and AnythingLLM is a private document-chat app. Kortix is the one that runs a company-wide system from one git repo you own.
 
 ## How is Kortix different from OpenWork and the other options?
 

@@ -1,4 +1,4 @@
-Kortix is open source. It is the open-source AI Management System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work.
+Kortix is open source. It is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and ChatGPT Work.
 
 # Claude Cowork vs Open-Source Alternatives: How to Decide
 
@@ -36,6 +36,6 @@ OpenHands is a developer control center for coding agents and automations. It ru
 
 ## Why Kortix for a company-wide system
 
-Kortix is the open-source AI Management System, and it is the pick when the goal is a governed system rather than a single assistant. Agents, skills, memory, connector config and triggers live in one git repo you own. Every session gets its own isolated Linux machine, so thousands run in parallel on one config without crossover. Any model works with your own keys, per agent, per session or per message. Connectors cover 3,000+ apps plus any MCP, OpenAPI, GraphQL or HTTP API, with credentials brokered server-side and allow/ask/block on each tool call. Work lands as a change request a human reads as a diff. Kortix is open source (Elastic License 2.0), so you can self-host, read and modify the code, on a laptop, a VPS, your VPC or on-prem.
+Kortix is the open-source AI Operating System, and it is the pick when the goal is a governed system rather than a single assistant. Agents, skills, memory, connector config and triggers live in one git repo you own. Every session gets its own isolated Linux machine, so thousands run in parallel on one config without crossover. Any model works with your own keys, per agent, per session or per message. Connectors cover 3,000+ apps plus any MCP, OpenAPI, GraphQL or HTTP API, with credentials brokered server-side and allow/ask/block on each tool call. Work lands as a change request a human reads as a diff. Kortix is open source, so you can self-host, read and modify the code, on a laptop, a VPS, your VPC or on-prem.
 
 Start with `curl -fsSL https://kortix.com/install | bash`, then read [how the options compare](01-open-source-claude-cowork-alternatives.md) or the campaign page on [open-source AI agent platforms](https://opensourceclaudecowork.com/open-source-ai-agent-platforms.html). The source is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
