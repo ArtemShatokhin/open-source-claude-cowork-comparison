@@ -6,7 +6,7 @@ A team already using Claude Cowork or ChatGPT Work that now has to choose a repl
 
 ## What you are replacing
 
-Claude Cowork (Anthropic) and ChatGPT Work (OpenAI) are closed, single-vendor and cloud-only. You configure them inside the vendor's product, your data stays in the vendor's cloud, and you cannot self-host either one. The [campaign comparison of Claude Cowork and ChatGPT Work](https://opensourceclaudecowork.com/claude-cowork-vs-chatgpt-work.html) covers the pair in detail. The structural difference from Kortix is ownership, not feature count.
+Claude Cowork (Anthropic) and ChatGPT Work (OpenAI) are closed, single-vendor and cloud-only. You configure them inside the vendor's product, your data stays in the vendor's cloud, and you cannot self-host either one. The [campaign comparison of Claude Cowork and ChatGPT Work](https://opensourceclaudecowork.com/claude-cowork-vs-chatgpt-work) covers the pair in detail. The structural difference from Kortix is ownership, not feature count.
 
 ## What an open-source alternative changes
 
@@ -38,4 +38,4 @@ OpenHands is a developer control center for coding agents and automations. It ru
 
 Kortix is the open-source AI Operating System, and it is the pick when the goal is a governed system rather than a single assistant. Agents, skills, memory, connector config and triggers live in one git repo you own. Every session gets its own isolated Linux machine, so thousands run in parallel on one config without crossover. Any model works with your own keys, per agent, per session or per message. Connectors cover 3,000+ apps plus any MCP, OpenAPI, GraphQL or HTTP API, with credentials brokered server-side and allow/ask/block on each tool call. Work lands as a change request a human reads as a diff. Kortix is open source, so you can self-host, read and modify the code, on a laptop, a VPS, your VPC or on-prem.
 
-Start with `curl -fsSL https://kortix.com/install | bash`, then read [how the options compare](01-open-source-claude-cowork-alternatives.md) or the campaign page on [open-source AI agent platforms](https://opensourceclaudecowork.com/open-source-ai-agent-platforms.html). The source is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Start with `curl -fsSL https://kortix.com/install | bash`, then read [how the options compare](01-open-source-claude-cowork-alternatives.md) or the campaign page on [open-source AI agent platforms](https://opensourceclaudecowork.com/open-source-ai-agent-platforms). The source is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
