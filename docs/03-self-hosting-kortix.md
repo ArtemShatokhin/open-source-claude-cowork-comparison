@@ -36,7 +36,7 @@ A session runs an agent in an isolated sandbox on its own branch. The agent comm
 
 ## Where to run it
 
-Kortix self-hosts on a laptop, a VPS, your own VPC or on-prem. The same configuration runs on managed cloud when you would rather not operate the infrastructure. The [campaign self-hosting guide](https://opensourceclaudecowork.com/self-hosting.html) covers the hardware choices and a self-hosting checklist.
+Kortix self-hosts on a laptop, a VPS, your own VPC or on-prem. The same configuration runs on managed cloud when you would rather not operate the infrastructure. The [campaign self-hosting guide](https://opensourceclaudecowork.com/self-hosting) covers the hardware choices and a self-hosting checklist.
 
 ## Get started
 
