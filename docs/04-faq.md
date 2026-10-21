@@ -42,4 +42,4 @@ kortix init
 kortix self-host start
 ```
 
-The first interactive setup asks only for the integration credentials; ports and Compose defaults are generated for you. `kortix self-host start` pulls its images from Docker Hub, so the install is self-hosted rather than air-gapped. The [self-hosting guide](03-self-hosting-kortix.md) walks the full path, and the campaign site has a [self-hosting checklist](https://opensourceclaudecowork.com/self-hosting.html).
+The first interactive setup asks only for the integration credentials; ports and Compose defaults are generated for you. `kortix self-host start` pulls its images from Docker Hub and sessions run on Platinum sandboxes, so the install is self-hosted rather than fully offline. The [self-hosting guide](03-self-hosting-kortix.md) walks the full path, and the campaign site has a [self-hosting checklist](https://opensourceclaudecowork.com/self-hosting.html).
