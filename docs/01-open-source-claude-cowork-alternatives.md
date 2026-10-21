@@ -42,7 +42,7 @@ Kortix is open source, so you can self-host, read and modify the code. Kortix is
 
 The connectors are the part most single-agent tools leave out. Kortix wires up 3,000+ apps plus any MCP, OpenAPI, GraphQL or HTTP API. Credentials are brokered server-side and never enter the agent machine, and each tool call is set to allow, ask or block, down to the arguments it was given. Work lands only as a change request, deny by default, so nothing reaches production unreviewed.
 
-Kortix fits a company that wants one governed system for its agents and its context rather than a single assistant. Start with `curl -fsSL https://kortix.com/install | bash`. The source is at [Kortix on GitHub](https://github.com/kortix-ai/suna), and the campaign site walks the self-host path at [self-hosting an open source Claude Cowork alternative](https://opensourceclaudecowork.com/self-hosting.html).
+Kortix fits a company that wants one governed system for its agents and its context rather than a single assistant. Start with `curl -fsSL https://kortix.com/install | bash`. The source is at [Kortix on GitHub](https://github.com/kortix-ai/suna), and the campaign site walks the self-host path at [self-hosting an open source Claude Cowork alternative](https://opensourceclaudecowork.com/self-hosting).
 
 ## OpenHands
 
@@ -70,4 +70,4 @@ kortix init
 kortix self-host start
 ```
 
-Continue to [self-hosting Kortix](03-self-hosting-kortix.md) for the full setup, or read the campaign page on [open-source AI agent platforms](https://opensourceclaudecowork.com/open-source-ai-agent-platforms.html).
+Continue to [self-hosting Kortix](03-self-hosting-kortix.md) for the full setup, or read the campaign page on [open-source AI agent platforms](https://opensourceclaudecowork.com/open-source-ai-agent-platforms).
