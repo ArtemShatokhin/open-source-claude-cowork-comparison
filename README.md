@@ -70,9 +70,9 @@ e388-comparison/
 
 ## Links
 
-- [Open-source AI agent platforms](https://opensourceclaudecowork.com/open-source-ai-agent-platforms.html) on the campaign site.
-- [Self-hosting an open source Claude Cowork alternative](https://opensourceclaudecowork.com/self-hosting.html).
-- [Claude Cowork vs ChatGPT Work](https://opensourceclaudecowork.com/claude-cowork-vs-chatgpt-work.html).
+- [Open-source AI agent platforms](https://opensourceclaudecowork.com/open-source-ai-agent-platforms) on the campaign site.
+- [Self-hosting an open source Claude Cowork alternative](https://opensourceclaudecowork.com/self-hosting).
+- [Claude Cowork vs ChatGPT Work](https://opensourceclaudecowork.com/claude-cowork-vs-chatgpt-work).
 - [Kortix on GitHub](https://github.com/kortix-ai/suna).
 
 
