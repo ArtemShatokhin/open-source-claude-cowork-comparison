@@ -14,7 +14,7 @@ kortix init
 kortix self-host start
 ```
 
-The first interactive setup asks only for the integration credentials that unlock managed git, GitHub access and connectors. Ports, local URLs, keys and Docker Compose defaults are generated for you. `kortix self-host start` pulls its images from Docker Hub, so this is a self-hosted install rather than a fully air-gapped one.
+The first interactive setup asks only for the integration credentials that unlock managed git, GitHub access and connectors. Ports, local URLs, keys and Docker Compose defaults are generated for you. `kortix self-host start` pulls its images from Docker Hub and sessions run on Platinum sandboxes, so this is a self-hosted install rather than a fully offline one.
 
 ## What Kortix is
 
